@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 164eebf56494f8f44815b7fd718859ed, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -404,7 +404,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9792453, b: 0.9792453, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 100
   m_Range: 10
   m_SpotAngle: 30
@@ -757,8 +757,8 @@ MonoBehaviour:
   enemyCount1: 25
   enemyCount2: 5
   coinPrefab: {fileID: 9099306794050602375, guid: 78c399451ac387843a25435534c302e5, type: 3}
-  width: 10
-  height: 10
+  width: 6
+  height: 6
 --- !u!1 &1664394684
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Collect 10 Coins to move to Next Level
+  m_Text: Collect 10 Coins to Beat the Game!
 --- !u!222 &2046351327
 CanvasRenderer:
   m_ObjectHideFlags: 0

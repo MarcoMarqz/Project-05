@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6948441110810347627}
   - component: {fileID: 8552627880873050809}
   - component: {fileID: 7698914512208194476}
-  m_Layer: 0
+  - component: {fileID: 6463327358208205219}
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: PLAYER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +99,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 78d8e6d4aefb8e3458fd53784a59293e, type: 2}
+--- !u!114 &6463327358208205219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933069850631641511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aab1d18eb5fa76448ace103c129b5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHits: 5
 --- !u!1 &3856122009723449610
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +123,7 @@ GameObject:
   - component: {fileID: 4248854087514512361}
   - component: {fileID: 6087504413400197990}
   - component: {fileID: 6638019724433123388}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -199,9 +213,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2499491435760470575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BulletSpawnPoint
-  m_TagString: Untagged
+  m_TagString: PLAYER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,9 +244,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6825247842981554539}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon Holder (1)
-  m_TagString: Untagged
+  m_TagString: PLAYER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,6 +278,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 47debd9033d666b41bbadf28db4af725, type: 3}
       propertyPath: m_Name
       value: Bit Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47debd9033d666b41bbadf28db4af725, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47debd9033d666b41bbadf28db4af725, type: 3}
+      propertyPath: m_TagString
+      value: PLAYER
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 47debd9033d666b41bbadf28db4af725, type: 3}
       propertyPath: m_LocalScale.x
@@ -351,8 +373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpawnPoint: {fileID: 2499491435760470575}
   bulletPrefab: {fileID: 482756631022216413, guid: 4df53504cdb953a49b2a35e1bee860eb, type: 3}
-  bulletspeed: 10
-  shootSound: {fileID: 8300000, guid: 287714c74120797488f2baa3f148324a, type: 3}
+  bulletspeed: 50
+  shootSound: {fileID: 8300000, guid: ab68edafeed0fed4a90acd2fccd1ed22, type: 3}
 --- !u!4 &8531732147261414501 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 47debd9033d666b41bbadf28db4af725, type: 3}

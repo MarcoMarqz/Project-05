@@ -421,6 +421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  coinsToAdvance: 10
   scoreText: {fileID: 2136942886}
 --- !u!4 &1331462205
 Transform:
@@ -605,7 +606,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8706011422705788613, guid: 8d81cddb948c78c459d32a7e1248af15, type: 3}
+    - {fileID: 0}
+    - {fileID: 7333049067531409115, guid: 8d81cddb948c78c459d32a7e1248af15, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

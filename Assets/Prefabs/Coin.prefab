@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1756033936635167383}
   - component: {fileID: 1054931288522845326}
   - component: {fileID: 546770147605156306}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9099306794050602375}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.73756814, z: -0, w: 0.6752728}
   m_LocalPosition: {x: -6.4163694, y: 0.64, z: 7.4}
-  m_LocalScale: {x: 0.2, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 95.049, z: 0}
 --- !u!33 &136845059666920733
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -118,3 +118,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b80191aaed808a4fbfae2c004c36693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 7f9403ad262715f4994f66bc8d445f42, type: 3}
